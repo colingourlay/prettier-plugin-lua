@@ -1,9 +1,12 @@
 {
-  "name": "@prettier/plugin-lua",
+  "name": "@colingourlay/prettier-plugin-lua",
   "version": "0.0.1",
   "description": "Prettier Lua Plugin",
-  "repository": "prettier/plugin-lua",
-  "author": "Suchipi <me@suchipi.com>",
+  "repository": "colingourlay/prettier-plugin-lua",
+  "contributors": [
+    "Suchipi <me@suchipi.com>",
+    "Colin Gourlay <colin@colin-gourlay.com>"
+  ],
   "license": "MIT",
   "main": "src",
   "engines": {
@@ -21,9 +24,9 @@
     "eslint-config-unobtrusive": "^1.2.5",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "jest": "^24.9.0",
+    "jest": "^26.0.0",
     "jest-runner-eslint": "^0.10.0",
-    "prettier": "^2.1.1"
+    "prettier": "^2.7.1"
   },
   "peerDependencies": {
     "prettier": ">=2.0.0"
@@ -39,4 +42,3 @@
     ]
   }
 }
-
